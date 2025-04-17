@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Email Thread Assistant",
+  "version": "1.0",
+  "description": "Summarize email threads, extract tasks, and draft replies using GenAI.",
+  "permissions": ["scripting", "activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://mail.google.com/*"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
