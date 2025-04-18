@@ -1,6 +1,13 @@
 # chrome-extn-gmail-summarization
 chrome-extn-gmail-summarization
+===================================================
+How to Run It.
 
+Go to chrome://extensions/ in your Chrome browser.
+Enable Developer Mode (toggle at the top right).
+Click “Load Unpacked” and select project folder.
+Pin the extension and click on it.
+Try changing the page color using the buttons!
 ===================================================
 
 Feature   
